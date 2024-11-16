@@ -14,6 +14,9 @@ struct ContentView: View {
                 .imageScale(.large)
                 .foregroundStyle(.tint)
             Text("Hello, world!")
+            
+            Image(systemName: "cloud.rain")
+            Text("Its a rainny day today.")
         }
         .padding()
     }
