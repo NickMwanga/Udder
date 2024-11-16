@@ -18,6 +18,7 @@ struct ContentView: View {
             Image(systemName: "cloud.rain")
             Text("Its a rainny day today.")
             Text("Its a cold day.")
+            Text("It was a good day but could be better.")
         }
         .padding()
         .background(.teal)
